@@ -139,9 +139,18 @@ a:hover {
 }
 
 .tm-welcome-icon {
-  margin-bottom: 50px;
+  height: 300px;
+  width: 370px;
+  /* margin-bottom: 50px;
   display: block;
-  text-align: center;
+  text-align: center; */
+}
+
+.tm-welcome-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block; 
 }
 
 /*
@@ -293,22 +302,22 @@ p {
   grid-column-start: 3;
 }
 .gridItem4 {
-  grid-column-start: 4;
-}
-.gridItem5 {
-  grid-column-start: 5;
-}
-.gridItem6 {
   grid-column-start: 1;
 }
-.gridItem7 {
+.gridItem5 {
   grid-column-start: 2;
 }
-.gridItem8 {
+.gridItem6 {
   grid-column-start: 3;
 }
+.gridItem7 {
+  grid-column-start: 1;
+}
+.gridItem8 {
+  grid-column-start: 2;
+}
 .gridItem9 {
-  grid-column-start: 4;
+  grid-column-start: 3;
 }
 .gridItem10 {
   grid-column-start: 5;
@@ -319,7 +328,7 @@ p {
   font-size: 50px; 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .gridContainer > div > p {
