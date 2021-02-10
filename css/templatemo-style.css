@@ -81,7 +81,7 @@ a:hover {
 }
 
 .tm-brand-container-inner {
-  max-width: 580px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -91,6 +91,7 @@ a:hover {
 
 .tm-brand-name {
   font-size: 3.8rem;
+  
 }
 
 .tm-brand-description {
@@ -287,8 +288,9 @@ p {
 
 .gridContainer {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr,;
+  margin-left: 9%;
 
 }
 
@@ -324,7 +326,7 @@ p {
 }
 
 .gridContainer > div {
-  margin: 50px;
+  /* margin: 50px; */
   font-size: 50px; 
   display: flex;
   flex-direction: column;
@@ -394,6 +396,7 @@ p {
 @media (max-width: 443px) {
   .tm-brand-name {
     font-size: 3rem;
+    margin-top: 3%;
   }
 
   .tm-brand-container {
